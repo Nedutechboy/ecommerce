@@ -1,5 +1,5 @@
 name: first
-on: Push
+on: push
 jobs:
      getgitversion:
       runs-on: ubuntu-latest
