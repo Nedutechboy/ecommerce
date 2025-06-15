@@ -1,10 +1,14 @@
 name: first
 on: Push
-Jobs:
+jobs:
     getgitversion:
      runs-on: ubuntu-latest
 
      steps:
      - name: Gitversion
         run: git version
+    - name: mavenversion
+       run: mvn --v
+
+    
     
