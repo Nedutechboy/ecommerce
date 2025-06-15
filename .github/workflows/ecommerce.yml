@@ -6,9 +6,9 @@ jobs:
 
      steps:
      - name: Gitversion
-        run: git version
+       run: git version
     - name: mavenversion
-       run: mvn --v
+      run: mvn --v
 
     
     
