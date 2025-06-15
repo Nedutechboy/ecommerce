@@ -6,5 +6,5 @@ Jobs:
 
      steps:
      - name: Gitversion
-        run: git --v
+        run: git version
     
