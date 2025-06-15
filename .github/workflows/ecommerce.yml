@@ -1,0 +1,10 @@
+name: first
+on: Push
+Jobs:
+    getgitversion:
+     runs-on: ubuntu-latest
+
+     steps:
+     - name: Gitversion
+        run: git --v
+    
